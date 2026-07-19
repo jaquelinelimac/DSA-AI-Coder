@@ -111,7 +111,7 @@ if prompt := st.chat_input("Qual sua dúvida sobre Python?"):
                 
                 chat_completion = client.chat.completions.create(
                     messages = messages_for_api,
-                    model ="llama3-8b-8192",
+                    model ="llama-3.3-70b-versatile",
                     temperature = 0.7,
                     max_tokens = 2048,
                 )
